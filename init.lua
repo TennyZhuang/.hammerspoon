@@ -1,3 +1,2 @@
-hs.window.animationDuration = 0
-
+require "config"
 require "window"
