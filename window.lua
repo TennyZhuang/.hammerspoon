@@ -1,4 +1,4 @@
-local resize = {"cmd", "alt"}
+local resize = {"cmd", "alt", "shift"}
 
 hs.hotkey.bind(resize, "Left", function()
   local win = hs.window.focusedWindow()
@@ -48,7 +48,7 @@ hs.hotkey.bind(resize, "Down", function()
   win:setFrame(f)
 end)
 
-hs.hotkey.bind(resize, "Return", function()
+hs.hotkey.bind(resize, "F", function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
   local screen = win:screen()
