@@ -1,4 +1,4 @@
 require "config"
 require "window"
 require "system"
-require "hyper"
+require "alacritty"
